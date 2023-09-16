@@ -64,7 +64,7 @@ const SortingVisualizer = () => {
     <Flex alignItems={'end'} justifyContent={'center'}   mt={10} >{finalArray.map((value, idx) => (
         
             
-        <Box key={idx} w={'10px'} h={`${value}px `} bg={sortedArray.includes(value) ? 'red' : 'blue'} m="1px" maxH={'80vh'} />
+        <Box key={idx} w={'10px'} h={`${value}px `} bg={sortedArray.includes(value) ? 'red.200' : 'blue.200'} m="1px" maxH={'80vh'} />
         
 
     ))}</Flex>
