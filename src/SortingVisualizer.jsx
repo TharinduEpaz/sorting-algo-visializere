@@ -71,8 +71,8 @@ const SortingVisualizer = () => {
 
     <Box textAlign={'center'} mt={10}>
         <Button colorScheme='purple' m={2} onClick={() => resetArray(setArray)}>Generate New Array</Button>
-        <Button m={2}>Bubble Sort</Button>
-        <Button m={2}>Quick Sort</Button>
+        {/* <Button m={2}>Bubble Sort</Button>
+        <Button m={2}>Quick Sort</Button> */}
         <Button m={2} onClick={async ()=> {
             const arr = await mergeSort(array)
             
@@ -81,9 +81,9 @@ const SortingVisualizer = () => {
             
             }
         }>Merge Sort</Button>
-        <Button m={2}>Heap Sort</Button>
+        {/* <Button m={2}>Heap Sort</Button>
         <Button m={2}>Insertion Sort</Button>
-        <Button m={2}>Selection Sort</Button>
+        <Button m={2}>Selection Sort</Button> */}
     </Box>
     
     </>
